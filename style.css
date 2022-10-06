@@ -1,0 +1,167 @@
+*{
+margin: 0%;
+padding: 0%;
+background: #F3F5FC;
+font-family: 'Inter';
+}
+
+.logo{
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.uno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    position: absolute;
+    width: 1440px;
+    height: 500px;
+    top: 200px;
+    
+    
+}
+
+.btn-iniciarjuego {
+    width: 317px;
+    height: 100px;
+    padding: 24px;
+    color: white;
+    background-color: #0A3871;
+    border-radius: 24px;
+    font-size: x-large;
+    border-color: #0A3871;
+    border: #0A3871;
+
+
+}
+
+.nva-palabra {
+    width: 280px;
+    height: 67px;
+    left: 579px;
+    top: 554px;
+    padding: 18px;
+    color: #0A3871;
+    background-color: transparent;
+    border-radius: 24px;
+    font-size: x-large;
+    border-color: #0A3871;
+}
+
+.ingrese-palabra {
+    position: absolute;
+    width: 330px;
+    height: 70px;
+    left: 530px;
+    top: 200px;
+    direction: rtl;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: left;
+    outline:none;
+    border: none;
+}
+
+::placeholder {
+    color:#0A3871;
+}
+
+.condiciones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    font-size: 20px;
+    color: #495057;
+    gap: 8px;                                                                                          
+    width: 500px;
+    height: 18px;
+    left: 530px;
+    top: 670px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    left: 530px;
+    top: 700px;
+    width: 700px;
+    height: 70px;
+    font-style: normal;
+    text-align: center;
+}
+
+.guardar {
+    padding: 20px;
+    background: #0A3871;
+    color: white;
+    border-radius: 24px;
+    width: 330px;
+    height: 60px;
+    border: #0A3871;
+    font-size: large;
+}
+
+.cancelar {
+    padding: 20px;
+    background: transparent;
+    color:#0A3871;
+    border-radius: 24px;
+    width: 330px;
+    height: 60px;
+    font-size: large;
+    border-color: #0A3871;
+    
+}
+
+.botones-canvas {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    left: 530px;
+    top: 850px;
+    width: 700px;
+    height: 80px;
+    font-style: normal;
+    text-align: center;
+}
+
+.nuevoJuego {
+    padding: 20px;
+    background: #0A3871;
+    color: white;
+    border-radius: 24px;
+    width: 330px;
+    height: 60px;
+    border: #0A3871;
+    font-size: large;
+}
+
+.desistir {
+    padding: 20px;
+    background: transparent;
+    color:#0A3871;
+    border-radius: 24px;
+    width: 330px;
+    height: 60px;
+    font-size: large;
+    border-color: #0A3871;
+}
+

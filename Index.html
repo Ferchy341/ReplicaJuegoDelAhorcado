@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>JUEGO DEL AHORCADO</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="./Imagenes/logo.png" class="logo">
+        </header>
+        <main>
+
+            <section class="uno" id="uno">
+                <button type="button" onclick=""  class="btn-iniciarjuego" id="btn-iniciarjuego">Iniciar Juego</button>
+                <button type="button" onclick="agregarPalabra()"  class="nva-palabra" id="nva-palabra">Nueva Palabra</button>
+            </section>
+
+            <section class="dos" id="ing-palabra">
+                <div>
+                    <input type="text" class="ingrese-palabra" id="ingrese-palabra" maxlength="8" placeholder="Ingrese una Palabra">                    
+                </div>                
+                <div class="condiciones">
+                    <img src="./Imagenes/SignodeAdmiracion.png" class="signo">
+                    <h5>Máx. de 8 letras</h5>
+                </div>
+                <div class="btns">
+                    <button type="button" onclick="" class="guardar" id="guardar">Guardar y Empezar</button>
+                    <button type="button" onclick="" class="cancelar" id="cancelar">Cancelar</button>
+                </div>     
+            </section>
+
+            <section class="canvas" id="tres">
+                <canvas  width="1200px" height="860px" id="horca"></canvas>
+                <div class="subrayado"></div>
+                <div class="botones-canvas">
+                    <button type="button" onclick="" class="nuevoJuego" id="nuevoJuego">Nuevo Juego</button>
+                    <button type="button" onclick="" class="desistir" id="desistir">Desistir</button>
+                </div>               
+            </section>
+
+            
+
+        </main>
+        <footer></footer>
+        <script src="./ahorcado.js"></script>
+        <script src="./ahorcado2.js"></script>
+    </body>
+</html>
