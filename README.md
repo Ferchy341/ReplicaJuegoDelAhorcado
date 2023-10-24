@@ -1,5 +1,5 @@
-# Replica-Juego-del-Ahorcado-
-Segundo Desafío de AluraLatam
+# Replica "Juego del Ahorcado" 
+## Segundo Desafío de AluraLatam 
 
 Este Segundo Desafío es una réplica del famoso "Juego del Ahorcado", el mismo cuenta con palabras incorporadas y también con la opción de incorporar o personalizar agregando nuevas Palabras para el juego. 
 Es Muy Divertido!!!!! En este Desafío utilizamos HTML5,CSS3 Y JavaScript. 
