@@ -5,7 +5,7 @@ En este Segundo Desafío es una réplica del famoso "Juego del Ahorcado", el mis
 agregando nuevas Palabras para el juego. Muy Divertido!!!!! También para este Desafío utilizamos HTML5,CSS3 Y JavaScript. 
 
 
-file:///C:/Users/Usuario/Documents/Alura-Oracle/Desafios%20para%20gitHub/Replica%20de%20Ahorcado/Index.html
+https://ferchy341.github.io/ReplicaJuegoDelAhorcado
 
 
 
